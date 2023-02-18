@@ -8,8 +8,6 @@ from Bio import Medline
 import requests
 from datetime import datetime
 
-# CTGOV
-
 
 def query_ctgov_study(
     search_string: str = "withings scanwatch",
@@ -112,6 +110,7 @@ def query_ctgov_field(
         return pd.read_csv(request, skiprows=skip_row)
 
 
+# You have to set your mailaddress and API key here
 # PUBMED
 def query_pubmed(
     db: str = "pubmed",
