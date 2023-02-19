@@ -15,7 +15,7 @@ Complete queries using the Multiquery package are stored in the 'Graph' folder. 
 ## Data
 As not all datasets could be pushed to this repository, some .csv or .xlsx files might be missing in the 'Data' folder. As all data has been pulled from publicly available sources, one should be able to recreate the data using the 'Methods' section of the thesis. In case someone is interested in the exact datasets, feel free to reach out to the author on GitHub.
 
-## Why are there packages and graphs not included in the thesis?
+## Why are there packages and graphs mentioned in the code but not included in the thesis?
 While most files were thorougly cleaned up before publishing, I intentionally left some additional analyses (e.g., timeseries analyses) in the Jupyter notebooks as show different strategies and foci that were not part of the final thesis. These chunks of code also explain many of the packages included in the requirements that might be surprising when just reading the thesis.
 
 
